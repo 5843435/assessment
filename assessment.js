@@ -1,7 +1,7 @@
 'use strict';
 const userNameInput = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
-const resultDivided = document.getElementsByClassName('result-area');
+const resultDivided = document.getElementsByClassName('result-area')[0];
 const tweetDivided = document.getElementById('tweet-area');
 console.log(resultDivided);
 /**
